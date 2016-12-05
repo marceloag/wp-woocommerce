@@ -1,0 +1,15 @@
+@import 'compass/css3';
+@import 'breakpoint';
+@import 'colores';
+@import 'animate';
+@import 'utilities';
+
+.sampleclass{
+	padding:0;
+		@include breakpoint($ipad) {
+			padding-bottom: 1em;
+  		}
+  		@include breakpoint($iphone) {
+			padding-bottom: 1em;
+  		}
+}
